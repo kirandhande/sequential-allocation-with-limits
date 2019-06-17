@@ -9,7 +9,7 @@
 			if($index > ($userCoount-1) ){
 				$index = 0 ; 
 			}
-			isvalid($users, $index, $userCoount) ; 
+			return isvalid($users, $index, $userCoount) ; 
 		}else{
 			echo "<br>before:".$index; ; 
 			return $index; 
